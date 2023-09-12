@@ -1,0 +1,9 @@
+Resources:
+  MyEc2Instance:
+    Type: 'AWS::S3::Bucket'
+    Properties: 
+      BucketName: "demo-sampler-new-bucket"
+      VersioningConfiguration:
+        Status: Enabled
+
+
